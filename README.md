@@ -1,4 +1,4 @@
-# An Algorithm to Calculate the $p$-value of the Monge-Elkan Distance
+# An Algorithm to Calculate the *p*-value of the Monge-Elkan Distance
 
 This repository contains source codes used to generate experimental results for the following paper:
 
