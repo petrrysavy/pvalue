@@ -6,8 +6,8 @@ Petr Ryšavý, Filip Železný
 An Algorithm to Calculate the $p$-value of the Monge-Elkan Distance
 TODO: provide a reference when available
 
-The paper was presented at ISBRA 2022 (https://mangul-lab-usc.github.io/ISBRA)
-and is intended for the following special issue.
+The paper was presented at ISBRA 2022 for the first time (https://mangul-lab-usc.github.io/ISBRA),
+without publication. Now, we are in the process of finding a journal to publish the results.
 
 All source codes are implemented in Java programming language. To run the project,
 use one of the main files. Alternatively, you can use the pre-compiled release jar.
