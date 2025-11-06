@@ -2,9 +2,25 @@
 
 This repository contains source codes used to generate experimental results for the following paper:
 
-Petr Ryšavý, Filip Železný
-An Algorithm to Calculate the $p$-value of the Monge-Elkan Distance
-TODO: provide a reference when available
+Ryšavý, Petr, and Filip Železný. "An Algorithm to Calculate the p-value of the Monge-Elkan Distance." *Journal of Computational Biology* (2025).
+(https://www.liebertpub.com/doi/10.1089/cmb.2024.0854)
+
+```bibtex
+@article{doi:10.1089/cmb.2024.0854,
+    author = {Ry\v{s}av\'{y}, Petr and \v{Z}elezn\'{y}, Filip},
+    title = {An Algorithm to Calculate the p-Value of the Monge-Elkan Distance},
+    journal = {Journal of Computational Biology},
+    volume = {32},
+    number = {8},
+    pages = {797-812},
+    year = {2025},
+    doi = {10.1089/cmb.2024.0854},
+    note ={PMID: 40488654},
+    URL = {https://doi.org/10.1089/cmb.2024.0854},
+    eprint = {https://doi.org/10.1089/cmb.2024.0854},
+    abstract = { The Monge-Elkan distance is a straightforward yet popular distance measure used to estimate the mutual similarity of two sets of objects. It was initially proposed in the field of databases, and it found broad usage in other fields. Nowadays, it is especially relevant to the analysis of new-generation sequencing data as it represents a measure of dissimilarity between genomes of two distinct organisms, particularly when applied to unassembled reads. This article provides an algorithm to calculate the p-value associated with the Monge-Elkan distance. Given the object-level null distribution, that is, the distribution of distances between independently and identically sampled objects such as reads, the method yields the null distribution of the Monge-Elkan distance, which in turn allows for calculating the $p$-value. We also demonstrate an application on sequencing data, where individual reads are compared by the Levenshtein distance.}
+}
+```
 
 The paper was presented at ISBRA 2022 for the first time (https://mangul-lab-usc.github.io/ISBRA),
 without publication. Now, we are in the process of finding a journal to publish the results.
